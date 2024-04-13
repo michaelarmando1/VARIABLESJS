@@ -23,3 +23,14 @@ let num2 = 243;
 let sum = num1 + num2;
 
 console.log(sum);
+
+let num3 = 343;
+
+let num4 = 312;
+
+if (num3 === num2) {
+    let sub = num3 - num4;
+    console.log(sub);
+} else {
+    console.log("Number is not the same, try again later");
+}
